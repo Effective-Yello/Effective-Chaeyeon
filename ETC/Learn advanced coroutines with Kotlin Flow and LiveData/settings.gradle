@@ -1,16 +1,2 @@
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-rootProject.name = "Learn advanced coroutines with Kotlin Flow and LiveData"
-include ':app'
+include ':finished_code', ':start', ':sunflower'
+rootProject.name='Advanced Coroutines on Android'
